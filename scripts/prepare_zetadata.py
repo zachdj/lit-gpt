@@ -74,7 +74,7 @@ def prepare(
         # see https://github.com/Lightning-AI/lit-gpt/blob/main/tutorials/finetune_adapter.md#tune-on-your-dataset
         data.append({
             "instruction": question,
-            "intput": "",
+            "input": "",
             "output": output,
         })
 
