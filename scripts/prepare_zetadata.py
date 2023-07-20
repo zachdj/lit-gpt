@@ -19,9 +19,9 @@ sys.path.append(str(wd))
 
 from lit_gpt.tokenizer import Tokenizer
 
-S3_PROFILE = "mlengineer"
+S3_PROFILE = "iam"
 DATA_FILE_URL = "s3://ai-ml-research/hackathon-2023/report_builder_data.jsonl"
-DATA_FILE_NAME = "alpaca_data_cleaned_archive.json"
+DATA_FILE_NAME = "report_builder_data.jsonl"
 LOCAL_DESTINATION_PATH = Path("data/zeta")
 S3_DESTINATION_PATH = "s3://ai-ml-research/hackathon-2023/prepared_data"
 CHECKPOINT_DIR = Path("checkpoints/stabilityai/stablelm-base-alpha-3b")
